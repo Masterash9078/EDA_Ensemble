@@ -1,0 +1,68 @@
+admission_type_id,description,,,,,,,,admission_type_id,description,,,
+1,Emergency,,,,,,,,10,Emergency,,,
+2,Urgent,,,,,,,,10,Urgent,,,
+3,Elective,,,,,,,,3,Elective,,,
+4,Newborn,,,,,,,,4,Newborn,,,
+5,Not Available,,,,,,,,20,Not Available,,,
+6,NULL,,,,,,,,20,NULL,,,
+7,Trauma Center,,,,,,,,20,Not Mapped,,,
+8,Not Mapped,,,,,,,,7,Trauma Center,,,
+,,,,,,,,,,,,,
+discharge_disposition_id,description,,,,,,,,,discharge_disposition_id,description,grouped_discharge_disposition,
+1,Discharged to home,,,,,,,,,1,Discharged to home,1,
+2,Discharged/transferred to another short term hospital,,,,,,,,,2,Discharged/transferred to another short term hospital,2,
+3,Discharged/transferred to SNF,,,,,,,,,3,Discharged/transferred to SNF,2,
+4,Discharged/transferred to ICF,,,,,,,,,4,Discharged/transferred to ICF,2,
+5,Discharged/transferred to another type of inpatient care institution,,,,,,,,,5,Discharged/transferred to another type of inpatient care institution,2,
+6,Discharged/transferred to home with home health service,,,,,,,,,6,Discharged/transferred to home with home health service,1,
+7,Left AMA,,,,,,,,,7,Left AMA,7,
+8,Discharged/transferred to home under care of Home IV provider,,,,,,,,,8,Discharged/transferred to home under care of Home IV provider,1,
+9,Admitted as an inpatient to this hospital,,,,,,,,,9,Admitted as an inpatient to this hospital,6,
+10,Neonate discharged to another hospital for neonatal aftercare,,,,,,,,,10,Neonate discharged to another hospital for neonatal aftercare,2,
+11,Expired,,,,,,,,,11,Expired,3,
+12,Still patient or expected to return for outpatient services,,,,,,,,,12,Still patient or expected to return for outpatient services,4,
+13,Hospice / home,,,,,,,,,13,Hospice / home,5,
+14,Hospice / medical facility,,,,,,,,,14,Hospice / medical facility,5,
+15,Discharged/transferred within this institution to Medicare approved swing bed,,,,,,,,,15,Discharged/transferred within this institution to Medicare approved swing bed,2,
+16,Discharged/transferred/referred another institution for outpatient services,,,,,,,,,16,Discharged/transferred/referred another institution for outpatient services,2,
+17,Discharged/transferred/referred to this institution for outpatient services,,,,,,,,,17,Discharged/transferred/referred to this institution for outpatient services,2,
+18,NULL,,,,,,,,,,,,
+19,"Expired at home. Medicaid only, hospice.",,,,,,,,,,,,
+20,"Expired in a medical facility. Medicaid only, hospice.",,,,,,,,,,,,
+21,"Expired, place unknown. Medicaid only, hospice.",,,,,,,,,,,,
+22,Discharged/transferred to another rehab fac including rehab units of a hospital .,,,,,,,,,,,,
+23,Discharged/transferred to a long term care hospital.,,,,,,,,,,,,
+24,Discharged/transferred to a nursing facility certified under Medicaid but not certified under Medicare.,,,,,,,,,,,,
+25,Not Mapped,,,,,,,,,,,,
+26,Unknown/Invalid,,,,,,,,,,,,
+30,Discharged/transferred to another Type of Health Care Institution not Defined Elsewhere,,,,,,,,,,,,
+27,Discharged/transferred to a federal health care facility.,,,,,,,,,,,,
+28,Discharged/transferred/referred to a psychiatric hospital of psychiatric distinct part unit of a hospital,,,,,,,,,,,,
+29,Discharged/transferred to a Critical Access Hospital (CAH).,,,,,,,,,,,,
+,,,,,,,,,,,,,
+admission_source_id,description,,,,,,,,,,admission_source_id,description,grouped_admission_source
+1, Physician Referral,,,,,,,,,,1,Physician Referral,1
+2,Clinic Referral,,,,,,,,,,2,Clinic Referral,1
+3,HMO Referral,,,,,,,,,,3,HMO Referral,1
+4,Transfer from a hospital,,,,,,,,,,4,Transfer from a hospital,2
+5, Transfer from a Skilled Nursing Facility (SNF),,,,,,,,,,5,Transfer from a Skilled Nursing Facility (SNF),2
+6, Transfer from another health care facility,,,,,,,,,,6,Transfer from another health care facility,2
+7, Emergency Room,,,,,,,,,,7,Emergency Room,3
+8, Court/Law Enforcement,,,,,,,,,,8,Court/Law Enforcement,6
+9, Not Available,,,,,,,,,,9,Not Available,5
+10, Transfer from critial access hospital,,,,,,,,,,10,Transfer from critical access hospital,2
+11,Normal Delivery,,,,,,,,,,11,Normal Delivery,4
+12, Premature Delivery,,,,,,,,,,12,Premature Delivery,4
+13, Sick Baby,,,,,,,,,,13,Sick Baby,4
+14, Extramural Birth,,,,,,,,,,14,Extramural Birth,4
+15,Not Available,,,,,,,,,,15,Not Available,5
+17,NULL,,,,,,,,,,17,NULL,5
+18, Transfer From Another Home Health Agency,,,,,,,,,,18,Transfer From Another Home Health Agency,2
+19,Readmission to Same Home Health Agency,,,,,,,,,,19,Readmission to Same Home Health Agency,2
+20, Not Mapped,,,,,,,,,,20,Not Mapped,5
+21,Unknown/Invalid,,,,,,,,,,21,Unknown/Invalid,5
+22, Transfer from hospital inpt/same fac reslt in a sep claim,,,,,,,,,,22,Transfer from hospital inpt/same fac reslt in a sep claim,2
+23, Born inside this hospital,,,,,,,,,,23,Born inside this hospital,7
+24, Born outside this hospital,,,,,,,,,,24,Born outside this hospital,7
+25, Transfer from Ambulatory Surgery Center,,,,,,,,,,25,Transfer from Ambulatory Surgery Center,2
+26,Transfer from Hospice,,,,,,,,,,26,Transfer from Hospice,2
